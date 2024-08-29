@@ -4,6 +4,11 @@
              xmlns:local="clr-namespace:Tools1C"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <!--Get here back when .net 9 will be ready-->
+                <!--<ResourceDictionary Source="pack://application:,,,/PresentationFramework.Fluent;component/Resources/Fluent.xaml"/>-->
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
     </Application.Resources>
 </Application>
